@@ -84,7 +84,8 @@ header a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(/images/frame.jpg) center center / cover;
+  background: url(../images/frame.jpg) center center / cover;
+  min-height: auto;
 }
 header ul {
   display: flex;
@@ -157,7 +158,7 @@ header li:hover {
   width: 100%;
 }
 .who-content-img {
-  background: url(/images/team.jpg) center center/cover;
+  background: url(../images/team.jpg) center center/cover;
   flex: 1;
 }
 .who-content-text {
